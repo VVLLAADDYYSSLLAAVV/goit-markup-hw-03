@@ -1,0 +1,320 @@
+:root {
+--primary-text-color: #212121;
+--title-text-color: #757575;
+--accent-color: #2196F3;
+--primary-white-color: #FFFFFF;
+--title-fon-color: #F5F5F5;
+--button-color: #F5F4FA;
+}
+
+body {
+font-family: Roboto, sans-serif;
+background-color: var(--primary-white-color);
+color: #212121;
+font-size: 14px;
+line-height: 1.5;
+}
+
+.visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+}
+
+a{
+     text-decoration: none ;
+
+}
+ul{
+     list-style: none;
+}
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+
+/* вторичный цвет фона #F5F5F5 */
+
+
+
+.page{
+
+}
+.page-header {
+
+}
+.page .firstpart-logo{
+          
+     
+          font-family: 'Raleway';
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 1.19;
+          color: var(--accent-color);
+}
+.page .secondpart-logo {
+     font-family: 'Raleway';
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.19;
+     color: #000000;
+}
+/* Site-nav */
+.site-nav .link {
+      font-family: inherit;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      color: #212121
+
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+      color: #2196F3;
+}
+.site-nav .link.current{
+     color: var(--accent-color);
+}
+/* Верхня лінія */ /* top line bg */
+
+/* WebStudio */
+
+/* Студія */
+.studio {
+color: #212121;
+}
+.studio:hover, 
+.studio:focus{
+color: #2196F3;
+}
+/* Портфоліо */
+
+/* Контакти */
+.site-info{
+     
+}
+
+.link-email {
+     color: #212121;
+}
+.link-email:hover,
+.link-email:focus{
+     color: #2196F3;
+}
+
+.link-phone {
+     color: #757575;
+}
+
+/* Секція 1 */
+.hero{
+     background-color: #2F303A;
+}
+
+.hero-title{
+      font-style: normal;
+          font-weight: 900;
+          font-size: 44px;
+          line-height: 1.36;
+          text-align: center;
+          letter-spacing: 0.06em;
+          text-transform: uppercase;
+      color: var(--primary-white-color);
+}
+
+.hero-button{
+      font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 1.88;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          letter-spacing: 0.06em;
+     
+          color: var(--primary-white-color);
+          background-color: var(--accent-color);
+          border: transparent;
+}
+
+/* Шапка */
+
+/* Bg */
+
+/* Ефективні рішення для вашого бізнесу */
+/* Button */
+.button{ 
+      font-family: inherit;
+      color: var(--primary-text-color) ;
+      background-color: var(--button-color) ;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.25;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #212121;
+     border: transparent;
+}
+
+.button:hover,
+.button:focus{
+      color: var(--primary-white-color);
+      background-color: var(--accent-color);
+}
+
+.gallery{
+
+}
+
+.gallery-list{
+
+}
+
+.gallery-item{
+
+}
+
+.gallery-title{
+
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 2;
+      letter-spacing: 0.06em;
+      color: var(--primary-text-color);
+
+}
+
+.gallery-text{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: 0.03em;
+      color: var(--title-text-color);
+}
+
+.profile{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.33;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: var(--primary-text-color);
+}
+
+/* Замовити послугу */
+
+
+/* Секція 2 */
+
+/* Особливості */
+
+/* УВАГА ДО ДЕТАЛЕЙ */
+/* Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. */
+
+/* ПУНКТУАЛЬНІСТЬ */
+/* Завдання організації, особливо рамки і місце навчання кадрів тягне у себе. */
+
+/* ПЛАНУВАННЯ */
+/* Так само консультація з широким активом значною мірою зумовлює. */
+
+/* СУЧАСНІ ТЕХНОЛОГІЇ */
+/* Значимість цих проблем настільки очевидна, що реалізація планових завдань. */
+
+/* Секція 3 */
+/* Чим ми займаємося */
+
+/* box 1 */
+
+/* box 2 */
+
+/* box 3 */
+
+
+/* Секція 4 */ /* Section bg */
+/* Наша команда */
+
+/* team */
+
+/* team card 1 */
+/* img */
+/* Ігор Дем'яненко */
+/* Product Designer */
+/* card bg */
+
+/* team card 2 */
+/* img */
+/* Ольга Рєпіна */
+/* Frontend Developer */
+/* card bg */
+
+/* team card 3 */
+/* img */
+/* Микола Тарасов */
+/* Marketing */
+/* card bg */
+
+/* team card 4 */
+/* img */
+/* Михайло Єрмаков */
+/* UI Designer */
+/* card bg */
+
+
+/* Підвал */ /* Footer bg */
+.footer{
+      background: #2F303A;
+}
+.footer-address-link{
+
+}
+.footer-links-list{
+
+}
+/* WebStudio */
+
+.footer-item{
+      margin-top: px;
+      margin-right: px;
+      margin-bottom: px;
+      margin-left: em;
+
+      
+      padding-right: px;
+      padding-bottom: px;
+      padding-left: em;
+}
+
+/* м. Київ, пр-т Лесі Українки, 26 */
+.footer-links-link {
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: 0.03em;
+     color: #FFFFFF;
+}
+
+/* info@devstudio.com */
+
+/* +38 096 111 11 11 */
+.footer-link {
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 1.71;
+     letter-spacing: 0.03em;
+     color: rgba(255, 255, 255, 0.6);
+}
