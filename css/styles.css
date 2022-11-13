@@ -113,6 +113,11 @@ color: #2196F3;
      color: #757575;
 }
 
+.section{
+      padding-top: 94px;
+      padding-bottom: 94px;
+}
+
 /* Секція 1 */
 .hero{
      background-color: #2F303A;
