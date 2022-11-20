@@ -24,7 +24,9 @@ button {
      border-radius: 4px;
 
 }
-
+header{
+     border-bottom: 1px solid #ececec;
+}
 body {
 font-family: Roboto, sans-serif;
 background-color: var(--primary-white-color);
@@ -69,9 +71,13 @@ ul{
 .page {
 
 }
+
 .page-header {
      display: flex;
      align-items: center;
+     justify-content: space-between;
+     padding-top: 24px;
+     padding-bottom: 25px;
 
 }
 .page .firstpart-logo {
@@ -146,7 +152,9 @@ color: #2196F3;
       padding-top: 94px;
       padding-bottom: 94px;
 }
-
+.job{
+     padding-top: 0;
+}
 /* Секція 1 */
 .hero{
      background-color: #2F303A;
