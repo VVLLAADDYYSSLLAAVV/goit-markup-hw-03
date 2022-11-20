@@ -59,6 +59,14 @@ a{
 ul{
      list-style: none;
 }
+
+.button-list{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+
+}
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* белый #FFFFFF */
@@ -122,7 +130,7 @@ color: #2196F3;
 
 /* Контакти */
 .site-info {
-     
+     margin-left: auto;
 }
 
 .link-email {
@@ -199,17 +207,30 @@ color: #2196F3;
 }
 
 .gallery{
+     width: 1200px;
+     padding-left: 15px;
+     padding-right: 15px;
+     margin-left: auto;
+     margin-right: auto;
 
 }
 
 .gallery-list{
+     display: flex;
+     flex-wrap: wrap;
 
 }
 
-.gallery-item{
+.gallery-item:nth-child(3n) {
+     margin-right: 0px;
+     
+
 
 }
+.border-box{
+     margin-right: 30px;
 
+}
 .gallery-title{
 
       font-style: normal;
@@ -247,9 +268,21 @@ color: #2196F3;
 .section-service{
 
 }
-/* Особливості */
+.discription{
 
+}
+
+.aside{
+
+}
+/* Особливості */
+.subtitle{
+
+}
 /* УВАГА ДО ДЕТАЛЕЙ */
+.desc{
+
+}
 /* Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. */
 
 /* ПУНКТУАЛЬНІСТЬ */
@@ -261,15 +294,22 @@ color: #2196F3;
 /* СУЧАСНІ ТЕХНОЛОГІЇ */
 /* Значимість цих проблем настільки очевидна, що реалізація планових завдань. */
 
+
+
 /* Секція 3 */
 /* Чим ми займаємося */
 .section-work {
      padding-top: 0px;
      padding-bottom: 94px;
-     
+     }
 
- 
-}
+     .employment{
+
+     }
+
+     .image-work{
+
+     }
 /* box 1 */
 
 /* box 2 */
@@ -283,30 +323,26 @@ color: #2196F3;
     background-color:  #F5F4FA; 
 }
 /* team */
+.team-employee {
+     display: flex;
 
-/* team card 1 */
-/* img */
-/* Ігор Дем'яненко */
+}
+
+.employee-info{
+
+}
+
+.employee-card{
+
+}
+
+.employee-name{
+
+}
 /* Product Designer */
-/* card bg */
+.employee-position{
 
-/* team card 2 */
-/* img */
-/* Ольга Рєпіна */
-/* Frontend Developer */
-/* card bg */
-
-/* team card 3 */
-/* img */
-/* Микола Тарасов */
-/* Marketing */
-/* card bg */
-
-/* team card 4 */
-/* img */
-/* Михайло Єрмаков */
-/* UI Designer */
-/* card bg */
+}
 
 
 /* Підвал */ /* Footer bg */
