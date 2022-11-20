@@ -11,7 +11,7 @@ p, h1, h2, h3 {
 margin: 0px;
 }
 
-ul{
+ul, ol {
      margin: 0px;
      padding-left: 0px;
 }
@@ -31,6 +31,7 @@ line-height: 1.5;
 
 .container {
       width: 1200px;
+      padding: 0px 15px;
       margin-left: auto;
       margin-right: auto;
       outline: 2px solid tomato;
@@ -145,16 +146,14 @@ color: #2196F3;
 /* Секція 1 */
 .hero{
      background-color: #2F303A;
+     padding-top: 200px;
+     padding-bottom: 200px;
 }
 
 .hero-title{
-      font-style: normal;
-          font-weight: 900;
-          font-size: 44px;
-          line-height: 1.36;
-          text-align: center;
-          letter-spacing: 0.06em;
-          text-transform: uppercase;
+      width: 696px;
+      margin-left: auto;
+      margin-right: auto;
       color: var(--primary-white-color);
 }
 
@@ -265,7 +264,11 @@ color: #2196F3;
 /* Секція 3 */
 /* Чим ми займаємося */
 .section-work {
+     padding-top: 0px;
+     padding-bottom: 94px;
+     
 
+ 
 }
 /* box 1 */
 
@@ -277,7 +280,7 @@ color: #2196F3;
 /* Секція 4 */ /* Section bg */
 /* Наша команда */
 .section-team {
-     
+    background-color:  #F5F4FA; 
 }
 /* team */
 
@@ -308,7 +311,7 @@ color: #2196F3;
 
 /* Підвал */ /* Footer bg */
 .footer{
-      background: #2F303A;
+      background-color: #2F303A;
 }
 .footer-address-link{
 
