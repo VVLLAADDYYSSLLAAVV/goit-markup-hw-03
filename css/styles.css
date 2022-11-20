@@ -15,9 +15,13 @@ ul, ol {
      margin: 0px;
      padding-left: 0px;
 }
-
+img{
+     display: block;
+}
 button {
      cursor: pointer;
+     padding: 6px 22px;
+     border-radius: 4px;
 
 }
 
@@ -34,11 +38,7 @@ line-height: 1.5;
       padding: 0px 15px;
       margin-left: auto;
       margin-right: auto;
-      outline: 2px solid tomato;
-          
-
 }
-
 .visually-hidden {
      position: absolute;
      width: 1px;
@@ -51,40 +51,30 @@ line-height: 1.5;
      clip: rect(0 0 0 0);
      overflow: hidden;
 }
-
 a{
      text-decoration: none ;
-
 }
 ul{
      list-style: none;
 }
-
 .button-list{
      display: flex;
      align-items: center;
      justify-content: center;
-
-
+     margin-bottom: 50px;
 }
-/* цвет основного текста #212121 */
-/* вторичный цвет текста #757575 */
-/* белый #FFFFFF */
-/* акцент #2196F3 */
-
-/* вторичный цвет фона #F5F5F5 */
-
-
-
+.button-list li:not(:last-child){
+     margin-right: 8px;
+}
 .page {
 
 }
 .page-header {
+     display: flex;
+     align-items: center;
 
 }
 .page .firstpart-logo {
-          
-     
           font-family: 'Raleway';
           font-weight: 700;
           font-size: 26px;
@@ -114,11 +104,13 @@ ul{
 .site-nav .link.current{
      color: var(--accent-color);
 }
-/* Верхня лінія */ /* top line bg */
+.site-nav{
+     display: flex;
+}
+.site-nav li:not(:last-child){
+     margin-right: 50px;
+}
 
-/* WebStudio */
-
-/* Студія */
 .studio {
 color: #212121;
 }
@@ -131,8 +123,12 @@ color: #2196F3;
 /* Контакти */
 .site-info {
      margin-left: auto;
+     display: flex;
 }
+.site-info li:not(:last-child){
+     margin-right: 50px;
 
+}
 .link-email {
      color: #212121;
 }
@@ -145,8 +141,8 @@ color: #2196F3;
      color: #757575;
 }
 
-.section .section-service .section-work .section-team  {
-      width: 1200px;
+.section {
+      
       padding-top: 94px;
       padding-bottom: 94px;
 }
@@ -163,6 +159,18 @@ color: #2196F3;
       margin-left: auto;
       margin-right: auto;
       color: var(--primary-white-color);
+
+     font-style: normal;
+          font-weight: 900;
+          font-size: 44px;
+          line-height: 1.36;
+          margin-bottom: 30px;
+     
+          text-align: center;
+          letter-spacing: 0.06em;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          
 }
 
 .hero-button{
@@ -178,6 +186,10 @@ color: #2196F3;
           color: var(--primary-white-color);
           background-color: var(--accent-color);
           border: transparent;
+          padding: 10px 32px;
+          margin-left: auto;
+          margin-right: auto;
+          border-radius: 4px;
 }
 
 /* Шапка */
@@ -219,10 +231,23 @@ color: #2196F3;
      display: flex;
      flex-wrap: wrap;
 
+
+}
+.gallery-list li{
+     margin-right: 25px;
+     border: 1px solid #eeeeee;
+     margin-bottom: 30px;
+     
 }
 
+
+.gallery-list li:nth-child(3n){
+     margin-right: 0;
+
+}
 .gallery-item:nth-child(3n) {
      margin-right: 0px;
+    
      
 
 
@@ -231,6 +256,7 @@ color: #2196F3;
      margin-right: 30px;
 
 }
+
 .gallery-title{
 
       font-style: normal;
@@ -239,6 +265,9 @@ color: #2196F3;
       line-height: 2;
       letter-spacing: 0.06em;
       color: var(--primary-text-color);
+      margin-top: 20px;
+      margin-bottom: 4px;
+      margin-left: 24px;
 
 }
 
@@ -249,6 +278,8 @@ color: #2196F3;
       line-height: 1.88;
       letter-spacing: 0.03em;
       color: var(--title-text-color);
+      margin-left: 24px;
+      margin-bottom: 20px;
 }
 
 .profile{
@@ -259,8 +290,15 @@ color: #2196F3;
       text-align: center;
       letter-spacing: 0.03em;
       color: var(--primary-text-color);
+      margin-bottom: 50px;
+}
+.employment li:not(:last-child){
+     margin-right: 30px;
 }
 
+.employment{
+     display: flex;
+}
 /* Замовити послугу */
 
 
@@ -269,9 +307,13 @@ color: #2196F3;
 
 }
 .discription{
+     display: flex;
 
 }
+.discription li:not(:last-child){
+     margin-right: 30px;
 
+}
 .aside{
 
 }
@@ -327,8 +369,14 @@ color: #2196F3;
      display: flex;
 
 }
+.team-employee li:not(:last-child){
+     margin-right: 30px;
+
+}
 
 .employee-info{
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
 
 }
 
@@ -337,17 +385,44 @@ color: #2196F3;
 }
 
 .employee-name{
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 1.19;
+     
+          text-align: center;
+          letter-spacing: 0.03em;
+     
+          color: #212121;
 
 }
 /* Product Designer */
 .employee-position{
+      text-align: center;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.19;
+      margin-bottom: 30px;
+      text-align: center;
+      letter-spacing: 0.03em;
+     
+      color: #757575;
 
+}
+.bgemployee{
+     background-color: #F5F4FA;
 }
 
 
 /* Підвал */ /* Footer bg */
 .footer{
       background-color: #2F303A;
+      padding-top: 60px;
+      padding-bottom: 60px;
 }
 .footer-address-link{
 
